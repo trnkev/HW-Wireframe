@@ -4,7 +4,8 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    margin: 0 auto;
+    margin: 5px auto;
+    text-align: center;
 }
 
 header, nav, section, aside, footer {
@@ -16,12 +17,37 @@ article {
     background: #777;
 }
 
+
 h1, p {
     color: #777;
     background: #ebebeb;
 }
 
 section {
+    float: left;
     width: 495px;
+
 }
 
+aside {
+    float: right;
+    width: 450px;
+}
+
+section, aside {
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+header, nav, footer {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+}
+
+#headings {
+    font-weight: bold;
+}
