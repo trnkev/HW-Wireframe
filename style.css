@@ -15,6 +15,10 @@ header, nav, section, aside, footer {
 article {
     color: #ebebeb;
     background: #777;
+    width: 95%;
+    height: 200px;
+    padding: 1px;
+    margin: 30px auto;
 }
 
 
@@ -26,7 +30,6 @@ h1, p {
 section {
     float: left;
     width: 495px;
-
 }
 
 aside {
@@ -35,12 +38,12 @@ aside {
 }
 
 section, aside {
-    height: 450px;
+    height: 300px;
     margin-bottom: 10px;
 }
 
 header, nav, footer {
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 10px;
 }
 
@@ -48,6 +51,18 @@ footer {
     clear: both;
 }
 
-#headings {
-    font-weight: bold;
+#full {
+    color: #ebebeb;
+    background: #777;
+}
+
+.content {
+    width: 85%;
+    margin: 0 auto 10px;
+    padding: 18px;
+}
+
+.heading {
+    font-weight: normal;
+    font-size: 18px;
 }
